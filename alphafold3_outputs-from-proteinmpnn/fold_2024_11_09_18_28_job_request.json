@@ -1,0 +1,15 @@
+[{
+ "name": "2024-11-09_18:28",
+ "modelSeeds": [
+  "1713034476"
+ ],
+ "sequences": [
+  {
+   "proteinChain": {
+    "sequence": "KEEELEKLKKEMIALARIAKILSLRLSGKYKEEAKKLEEEFKKLFPEFAPFLASFEDDELRKKFLEETLNSRISELYKKAKEIEKELSSGLFSVVKTSFDFEPTRNLNIEDIEKIEEEYGLAIELGGE",
+    "count": 1
+   }
+  }
+ ]
+}
+]
