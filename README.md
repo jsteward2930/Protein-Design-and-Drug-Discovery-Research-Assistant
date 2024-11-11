@@ -15,48 +15,57 @@ Leverage Google Colab's GPU resources for optimal performance
   AI-generated paper summaries
   Voice-enabled chat assistance
   Integration with NVIDIA knowledge base
+  https://pubmed.ncbi.nlm.nih.gov/
+  https://arxiv.org/
 
-2. PDB Tools
+3. PDB Tools: 
   Abstract lookup for quick protein information
   PDB file download capabilities
   Interactive 3D structure visualization
   AI-powered structure analysis
+  https://www.rcsb.org/
 
-3. RFdiffusion
+4. RFdiffusion: 
   Generate new protein structures
   GPU-accelerated protein backbone generation
   Custom binder design capabilities
   Parameter optimization with AI assistance
+  https://build.nvidia.com/ipd/rfdiffusion
 
-4. ProteinMPNN
+5. ProteinMPNN:
   Optimize amino acid sequences
   Deep learning-based sequence prediction
   Integration with NVIDIA GPU acceleration
   Advanced parameter configuration
+  https://build.nvidia.com/ipd/proteinmpnn
 
-5. AlphaFold2
+7. AlphaFold2:
   Protein structure prediction
   NVIDIA NGC optimization
   Parameter customization
   Results analysis and visualization
+  https://build.nvidia.com/deepmind/alphafold2
 
-6. MolMIM
+9. MolMIM:
   Molecular generation and optimization
   CMA-ES algorithm implementation
   Latent space exploration
   Property optimization
+  https://build.nvidia.com/nvidia/molmim-generate
 
-7. DiffDock
+11. DiffDock: 
   Molecular docking via diffusion models
   Score-based pose generation
   Confidence model ranking
   GPU-accelerated calculations
+  https://build.nvidia.com/mit/diffdock
 
-8. GROMACS
+13. GROMACS:
   Molecular dynamics simulation protocols
   NVIDIA GPU optimization
   DeepSeek-enhanced protocol generation
   Performance analysis
+  https://catalog.ngc.nvidia.com/orgs/hpc/containers/gromacs
 
 📋 Prerequisites
 
@@ -100,10 +109,6 @@ https://colab.research.google.com/
 Open the Google Colab notebook 
 Run the initial setup cell to install dependencies:
 
-python
-
-!pip install -r requirements.txt
-
 Configure your environment variables:
 
 import os
@@ -137,43 +142,64 @@ Sequence Optimization
 
 Architecture
 Frontend: Gradio web interface
+
 Backend: Python with multiple AI services
+
 Database: Pinecone vector store
+
 AI Models: NVIDIA NIMs integration
+
 Monitoring: Phoenix telemetry
 
-Key Components
+Key Components:
+
 LlamaIndex for knowledge retrieval
+
 OpenAI GPT-4o for chat assistance
+
 NVIDIA NIMs for protein design
+
 OpenTelemetry for monitoring
 
+
 ⚠️ Important Notes
+
 This application is specifically designed for Google Colab to avoid dependency conflicts and leverage cloud GPU resources
 Local installation is not recommended due to complex dependencies
 Some features may require specific GPU resources in Colab
 API usage may incur costs depending on your service plans
 
+
 🐛 Known Issues
+
 Dependency conflicts when running locally
 Specific CUDA version requirements
 Memory limitations in free Colab tier
 Timeout issues with long-running processes
 
+
 📚 Resources
+
 NVIDIA NIMs Documentation
 LlamaIndex Documentation
 Google Colab Documentation
 Gradio Documentation
 
+
 🤝 Contributing
+
 This project is currently part of the LlamaIndex-NVIDIA Developer Contest and is not accepting external contributions.
 
+
 📄 License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
 
+
 👥 Authors
+
 Joseph Steward - Initial work - GitHub
+
 
 🙏 Acknowledgments
 NVIDIA for providing NIMs and GPU resources
