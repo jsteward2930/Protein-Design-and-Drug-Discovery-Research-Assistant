@@ -66,19 +66,34 @@ NVIDIA API Key (Required)
 Sign up at NVIDIA Developer Portal
 Generate API key for accessing NIMs
 
+https://build.nvidia.com/deepseek-ai/deepseek-coder-6_7b-instruct
+
+
 OpenAI API Key (Required)
 For GPT-4 integration and voice synthesis
+
+https://platform.openai.com/docs/overview
+
 
 Pinecone API Key (Required)
 For vector database functionality
 
-Phoenix API Key (Optional)
+https://www.pinecone.io/
+
+
+Phoenix API Key (Required)
 For enhanced monitoring and tracing
+
+https://phoenix.arize.com/
+
 
 Google Colab Requirements
 A Google account
 Access to Google Colab
 Sufficient Colab credits for GPU usage
+
+https://colab.research.google.com/
+
 
 🛠️ Installation
 
@@ -95,7 +110,7 @@ import os
 os.environ["NVIDIA_API_KEY"] = "your_key_here"
 os.environ["OPENAI_API_KEY"] = "your_key_here"
 os.environ["PINECONE_API_KEY"] = "your_key_here"
-os.environ["PHOENIX_API_KEY"] = "your_key_here"  # Optional
+os.environ["PHOENIX_API_KEY"] = "your_key_here"  
 
 💻 Usage
 Starting the Application
