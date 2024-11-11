@@ -11,52 +11,52 @@ Leverage Google Colab's GPU resources for optimal performance
 
 🚀 Features
 
-Literature Search: Search and analyze scientific papers from arXiv and PubMed
-AI-generated paper summaries
-Voice-enabled chat assistance
-Integration with NVIDIA knowledge base
+1. Literature Search: Search and analyze scientific papers from arXiv and PubMed
+  AI-generated paper summaries
+  Voice-enabled chat assistance
+  Integration with NVIDIA knowledge base
 
-PDB Tools
-Abstract lookup for quick protein information
-PDB file download capabilities
-Interactive 3D structure visualization
-AI-powered structure analysis
+2. PDB Tools
+  Abstract lookup for quick protein information
+  PDB file download capabilities
+  Interactive 3D structure visualization
+  AI-powered structure analysis
 
-RFdiffusion
-Generate new protein structures
-GPU-accelerated protein backbone generation
-Custom binder design capabilities
-Parameter optimization with AI assistance
+3. RFdiffusion
+  Generate new protein structures
+  GPU-accelerated protein backbone generation
+  Custom binder design capabilities
+  Parameter optimization with AI assistance
 
-ProteinMPNN
-Optimize amino acid sequences
-Deep learning-based sequence prediction
-Integration with NVIDIA GPU acceleration
-Advanced parameter configuration
+4. ProteinMPNN
+  Optimize amino acid sequences
+  Deep learning-based sequence prediction
+  Integration with NVIDIA GPU acceleration
+  Advanced parameter configuration
 
-AlphaFold2
-Protein structure prediction
-NVIDIA NGC optimization
-Parameter customization
-Results analysis and visualization
+5. AlphaFold2
+  Protein structure prediction
+  NVIDIA NGC optimization
+  Parameter customization
+  Results analysis and visualization
 
-MolMIM
-Molecular generation and optimization
-CMA-ES algorithm implementation
-Latent space exploration
-Property optimization
+6. MolMIM
+  Molecular generation and optimization
+  CMA-ES algorithm implementation
+  Latent space exploration
+  Property optimization
 
-DiffDock
-Molecular docking via diffusion models
-Score-based pose generation
-Confidence model ranking
-GPU-accelerated calculations
+7. DiffDock
+  Molecular docking via diffusion models
+  Score-based pose generation
+  Confidence model ranking
+  GPU-accelerated calculations
 
-GROMACS
-Molecular dynamics simulation protocols
-NVIDIA GPU optimization
-DeepSeek-enhanced protocol generation
-Performance analysis
+8. GROMACS
+  Molecular dynamics simulation protocols
+  NVIDIA GPU optimization
+  DeepSeek-enhanced protocol generation
+  Performance analysis
 
 📋 Prerequisites
 
