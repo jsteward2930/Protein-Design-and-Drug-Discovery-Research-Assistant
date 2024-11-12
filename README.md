@@ -112,9 +112,13 @@ Run the initial setup cell to install dependencies:
 Configure your environment variables:
 
 import os
+
 os.environ["NVIDIA_API_KEY"] = "your_key_here"
+
 os.environ["OPENAI_API_KEY"] = "your_key_here"
+
 os.environ["PINECONE_API_KEY"] = "your_key_here"
+
 os.environ["PHOENIX_API_KEY"] = "your_key_here"  
 
 💻 Usage
